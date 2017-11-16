@@ -1,0 +1,79 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  position: relative;
+  width: 900px;
+  height: 2px;
+  left: 50px;
+  top: 50px;
+}
+.containerimg{
+  position: relative;
+  width: 900px;
+  height: 900px;
+  left: 50px;
+  top: 50px;
+}
+
+.title{
+  position: relative;
+  padding: 10px;
+  font-size: 50px;
+  text-align: left;
+  font-family: 'Marck Script', cursive;
+}
+
+.rectangle{
+  width: 90px;
+  height: 10px;
+  background: black;
+  position: relative;
+  bottom: 60px
+}
+
+.name{
+  position: absolute;
+  bottom: 10px;
+  left: 120px;
+  color: #C33F58;
+  font-family: 'Berkshire Swash', cursive;
+}
+
+.box1{
+  position: absolute;
+  left: 10px;
+  top: 150px;
+}
+
+.box2{
+  position: absolute;
+  left: 230px;
+  top: 150px;
+}
+
+.box3{
+  position: absolute;
+  left: 450px;
+  top: 150px;
+}
+
+.box4{
+  position: absolute;
+  left: 10px;
+  top: 370px;
+}
+
+.box5{
+  position: absolute;
+  left: 230px;
+  top: 370px;
+}
+
+.box6{
+  position: absolute;
+  left: 450px;
+  top: 370px;
+}
