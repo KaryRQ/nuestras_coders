@@ -4,25 +4,29 @@ body{
 }
 
 .container{
-  position: relative;
-  width: 900px;
-  height: 2px;
-  left: 50px;
-  top: 50px;
-}
-.containerimg{
-  position: relative;
-  width: 900px;
-  height: 900px;
-  left: 50px;
-  top: 50px;
+  width: 640px;
+  display: grid;
+  grid-template-rows: 25% auto;
+  margin-bottom: 20px;
 }
 
+.grid-gallery{
+  
+  display: grid;
+  padding-left: 300px;
+  width: 500px;
+  grid-template-columns: 25% 25% auto;
+  grid-template-rows:25% 25% auto;
+  grid-row-gap: 30%;
+  grid-column-gap: 20%;
+}
+
+
 .title{
-  position: relative;
-  padding: 10px;
+  padding: 10px ;
+  padding-left: 300px;
   font-size: 50px;
-  text-align: left;
+  text-align: center;
   font-family: 'Marck Script', cursive;
 }
 
@@ -31,49 +35,14 @@ body{
   height: 10px;
   background: black;
   position: relative;
-  bottom: 60px
+  bottom: 40px;
 }
 
 .name{
-  position: absolute;
-  bottom: 10px;
-  left: 120px;
+  position: relative;
+  left: 140px;
+  top: -210px;
   color: #C33F58;
   font-family: 'Berkshire Swash', cursive;
 }
 
-.box1{
-  position: absolute;
-  left: 10px;
-  top: 150px;
-}
-
-.box2{
-  position: absolute;
-  left: 230px;
-  top: 150px;
-}
-
-.box3{
-  position: absolute;
-  left: 450px;
-  top: 150px;
-}
-
-.box4{
-  position: absolute;
-  left: 10px;
-  top: 370px;
-}
-
-.box5{
-  position: absolute;
-  left: 230px;
-  top: 370px;
-}
-
-.box6{
-  position: absolute;
-  left: 450px;
-  top: 370px;
-}
